@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #171616ef;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+}
+.logo-tengkorak{
+    display: flex;
+    align-items: center;
+}
+.logo-nav-bar{
+    width: 15%;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+.hyperlink{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+}
+.registration{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.top-score{
+    background-image: url(/assets/top-score-bg.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.card-body{
+    height: 20rem;
+    background-color: black;
+}
+.card-title{
+    color: white;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+.card-text{
+    color: white;
+    margin-top: 2rem;
+}
+.btn{
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+.img-reviewer{
+    border-radius: 50%;
+    width: 15%;
+}

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #171616ef;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+}
+.logo-tengkorak{
+    display: flex;
+    align-items: center;
+}
+.logo-nav-bar{
+    width: 15%;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 50%;
+}
+.hyperlink{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+}
+.top-score{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+}
+.registration{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.contact-about-me{
+    background-image: url(/assets/newsletter.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+.foto-profil{
+    width: 230px;
+    height: 250px;
+    margin-top: 7.5rem;
+    margin-left: 5rem;
+}
+.judul{
+    color: white;
+    font-weight: bold;
+    margin-top: 7rem;
+}
+.biodata{
+    color: white;
+    margin-left: 3rem;
+}
+.introduction{
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+}
